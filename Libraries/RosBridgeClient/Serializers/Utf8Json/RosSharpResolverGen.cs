@@ -76,7 +76,7 @@ namespace Utf8Json.Resolvers
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciFeedback), 28 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciActionFeedback), 29 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciAction), 30 },
-                {typeof(global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform), 31 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Adapt.CmdPlatform), 31 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileRequest), 32 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileResponse), 33 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileRequest), 34 },
@@ -166,13 +166,13 @@ namespace Utf8Json.Resolvers
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsResponse), 118 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeRequest), 119 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeResponse), 120 },
-                {typeof(global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock), 121 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.RosGraph.Clock), 121 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.BatteryState), 122 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.RegionOfInterest), 123 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CameraInfo), 124 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.ChannelFloat32), 125 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage), 126 },
-                {typeof(global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2), 127 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage2), 127 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.FluidPressure), 128 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Illuminance), 129 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Image), 130 },
@@ -286,7 +286,7 @@ namespace Utf8Json.Resolvers
                 case 28: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciFeedbackFormatter();
                 case 29: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciActionFeedbackFormatter();
                 case 30: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciActionFormatter();
-                case 31: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatformFormatter();
+                case 31: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Adapt.CmdPlatformFormatter();
                 case 32: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileRequestFormatter();
                 case 33: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileResponseFormatter();
                 case 34: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileRequestFormatter();
@@ -376,13 +376,13 @@ namespace Utf8Json.Resolvers
                 case 118: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsResponseFormatter();
                 case 119: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeRequestFormatter();
                 case 120: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeResponseFormatter();
-                case 121: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.RosGraph.ClockFormatter();
+                case 121: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.RosGraph.ClockFormatter();
                 case 122: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.BatteryStateFormatter();
                 case 123: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.RegionOfInterestFormatter();
                 case 124: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.CameraInfoFormatter();
                 case 125: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ChannelFloat32Formatter();
                 case 126: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImageFormatter();
-                case 127: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2Formatter();
+                case 127: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage2Formatter();
                 case 128: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.FluidPressureFormatter();
                 case 129: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.IlluminanceFormatter();
                 case 130: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ImageFormatter();
@@ -4431,13 +4431,13 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTut
 #pragma warning disable 219
 #pragma warning disable 168
 
-namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Adapt
+namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Adapt
 {
     using System;
     using Utf8Json;
 
 
-    public sealed class CmdPlatformFormatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform>
+    public sealed class CmdPlatformFormatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.MessageTypes.Adapt.CmdPlatform>
     {
         readonly global::Utf8Json.Internal.AutomataDictionary ____keyMapping;
         readonly byte[][] ____stringByteKeys;
@@ -4468,7 +4468,7 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Adapt
             };
         }
 
-        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.MessageTypes.Adapt.CmdPlatform value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
         {
             if (value == null)
             {
@@ -4495,7 +4495,7 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Adapt
             writer.WriteEndObject();
         }
 
-        public global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        public global::RosSharp.RosBridgeClient.MessageTypes.Adapt.CmdPlatform Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
         {
             if (reader.ReadIsNull())
             {
@@ -4569,7 +4569,7 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Adapt
                 continue;
             }
 
-            var ____result = new global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform();
+            var ____result = new global::RosSharp.RosBridgeClient.MessageTypes.Adapt.CmdPlatform();
             if(__header__b__) ____result.header = __header__;
             if(__pitch__b__) ____result.pitch = __pitch__;
             if(__roll__b__) ____result.roll = __roll__;
@@ -12634,13 +12634,13 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi
 #pragma warning disable 219
 #pragma warning disable 168
 
-namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.RosGraph
+namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.RosGraph
 {
     using System;
     using Utf8Json;
 
 
-    public sealed class ClockFormatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock>
+    public sealed class ClockFormatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.MessageTypes.RosGraph.Clock>
     {
         readonly global::Utf8Json.Internal.AutomataDictionary ____keyMapping;
         readonly byte[][] ____stringByteKeys;
@@ -12659,7 +12659,7 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.RosGraph
             };
         }
 
-        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.MessageTypes.RosGraph.Clock value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
         {
             if (value == null)
             {
@@ -12674,7 +12674,7 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.RosGraph
             writer.WriteEndObject();
         }
 
-        public global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        public global::RosSharp.RosBridgeClient.MessageTypes.RosGraph.Clock Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
         {
             if (reader.ReadIsNull())
             {
@@ -12712,7 +12712,7 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.RosGraph
                 continue;
             }
 
-            var ____result = new global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock();
+            var ____result = new global::RosSharp.RosBridgeClient.MessageTypes.RosGraph.Clock();
             if(__clock__b__) ____result.clock = __clock__;
 
             return ____result;
@@ -13462,6 +13462,108 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor
             if(__header__b__) ____result.header = __header__;
             if(__format__b__) ____result.format = __format__;
             if(__data__b__) ____result.data = __data__;
+
+            return ____result;
+        }
+    }
+
+
+    public sealed class CompressedImage2Formatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage2>
+    {
+        readonly global::Utf8Json.Internal.AutomataDictionary ____keyMapping;
+        readonly byte[][] ____stringByteKeys;
+
+        public CompressedImage2Formatter()
+        {
+            this.____keyMapping = new global::Utf8Json.Internal.AutomataDictionary()
+            {
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("header"), 0},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("format"), 1},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("data"), 2},
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                JsonWriter.GetEncodedPropertyNameWithBeginObject("header"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("format"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("data"),
+                
+            };
+        }
+
+        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage2 value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (value == null)
+            {
+                writer.WriteNull();
+                return;
+            }
+            
+
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Serialize(ref writer, value.header, formatterResolver);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.WriteString(value.format);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::System.ArraySegment<byte>>().Serialize(ref writer, value._data, formatterResolver);
+            
+            writer.WriteEndObject();
+        }
+
+        public global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage2 Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (reader.ReadIsNull())
+            {
+                return null;
+            }
+            
+
+            var __header__ = default(global::RosSharp.RosBridgeClient.MessageTypes.Std.Header);
+            var __header__b__ = false;
+            var __format__ = default(string);
+            var __format__b__ = false;
+            var ___data__ = default(global::System.ArraySegment<byte>);
+            var ___data__b__ = false;
+
+            var ____count = 0;
+            reader.ReadIsBeginObjectWithVerify();
+            while (!reader.ReadIsEndObjectWithSkipValueSeparator(ref ____count))
+            {
+                var stringKey = reader.ReadPropertyNameSegmentRaw();
+                int key;
+                if (!____keyMapping.TryGetValueSafe(stringKey, out key))
+                {
+                    reader.ReadNextBlock();
+                    goto NEXT_LOOP;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __header__ = formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Deserialize(ref reader, formatterResolver);
+                        __header__b__ = true;
+                        break;
+                    case 1:
+                        __format__ = reader.ReadString();
+                        __format__b__ = true;
+                        break;
+                    case 2:
+                        ___data__ = formatterResolver.GetFormatterWithVerify<global::System.ArraySegment<byte>>().Deserialize(ref reader, formatterResolver);
+                        ___data__b__ = true;
+                        break;
+                    default:
+                        reader.ReadNextBlock();
+                        break;
+                }
+
+                NEXT_LOOP:
+                continue;
+            }
+
+            var ____result = new global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage2();
+            if(__header__b__) ____result.header = __header__;
+            if(__format__b__) ____result.format = __format__;
+            if(___data__b__) ____result._data = ___data__;
 
             return ____result;
         }
@@ -16262,126 +16364,6 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor
             var ____result = new global::RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoResponse();
             if(__success__b__) ____result.success = __success__;
             if(__status_message__b__) ____result.status_message = __status_message__;
-
-            return ____result;
-        }
-    }
-
-}
-
-#pragma warning disable 168
-#pragma warning restore 219
-#pragma warning restore 414
-#pragma warning restore 618
-#pragma warning restore 612
-#pragma warning disable 618
-#pragma warning disable 612
-#pragma warning disable 414
-#pragma warning disable 219
-#pragma warning disable 168
-
-namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Sensor
-{
-    using System;
-    using Utf8Json;
-
-
-    public sealed class CompressedImage2Formatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2>
-    {
-        readonly global::Utf8Json.Internal.AutomataDictionary ____keyMapping;
-        readonly byte[][] ____stringByteKeys;
-
-        public CompressedImage2Formatter()
-        {
-            this.____keyMapping = new global::Utf8Json.Internal.AutomataDictionary()
-            {
-                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("header"), 0},
-                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("format"), 1},
-                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("data"), 2},
-            };
-
-            this.____stringByteKeys = new byte[][]
-            {
-                JsonWriter.GetEncodedPropertyNameWithBeginObject("header"),
-                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("format"),
-                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("data"),
-                
-            };
-        }
-
-        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2 value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
-        {
-            if (value == null)
-            {
-                writer.WriteNull();
-                return;
-            }
-            
-
-            writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Serialize(ref writer, value.header, formatterResolver);
-            writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.WriteString(value.format);
-            writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<global::System.ArraySegment<byte>>().Serialize(ref writer, value._data, formatterResolver);
-            
-            writer.WriteEndObject();
-        }
-
-        public global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2 Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
-        {
-            if (reader.ReadIsNull())
-            {
-                return null;
-            }
-            
-
-            var __header__ = default(global::RosSharp.RosBridgeClient.MessageTypes.Std.Header);
-            var __header__b__ = false;
-            var __format__ = default(string);
-            var __format__b__ = false;
-            var ___data__ = default(global::System.ArraySegment<byte>);
-            var ___data__b__ = false;
-
-            var ____count = 0;
-            reader.ReadIsBeginObjectWithVerify();
-            while (!reader.ReadIsEndObjectWithSkipValueSeparator(ref ____count))
-            {
-                var stringKey = reader.ReadPropertyNameSegmentRaw();
-                int key;
-                if (!____keyMapping.TryGetValueSafe(stringKey, out key))
-                {
-                    reader.ReadNextBlock();
-                    goto NEXT_LOOP;
-                }
-
-                switch (key)
-                {
-                    case 0:
-                        __header__ = formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Deserialize(ref reader, formatterResolver);
-                        __header__b__ = true;
-                        break;
-                    case 1:
-                        __format__ = reader.ReadString();
-                        __format__b__ = true;
-                        break;
-                    case 2:
-                        ___data__ = formatterResolver.GetFormatterWithVerify<global::System.ArraySegment<byte>>().Deserialize(ref reader, formatterResolver);
-                        ___data__b__ = true;
-                        break;
-                    default:
-                        reader.ReadNextBlock();
-                        break;
-                }
-
-                NEXT_LOOP:
-                continue;
-            }
-
-            var ____result = new global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2();
-            if(__header__b__) ____result.header = __header__;
-            if(__format__b__) ____result.format = __format__;
-            if(___data__b__) ____result._data = ___data__;
 
             return ____result;
         }

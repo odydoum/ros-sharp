@@ -17,7 +17,7 @@ using System.Runtime.Serialization;
 
 using RosSharp.RosBridgeClient.MessageTypes.Std;
 
-namespace RosSharp.RosBridgeClient.Messages.Adapt
+namespace RosSharp.RosBridgeClient.MessageTypes.Adapt
 {
     public class CmdPlatform : Message
     {

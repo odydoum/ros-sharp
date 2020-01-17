@@ -18,7 +18,7 @@ using System.Runtime.Serialization;
 
 using RosSharp.RosBridgeClient.MessageTypes.Std;
 
-namespace RosSharp.RosBridgeClient.Messages.Sensor
+namespace RosSharp.RosBridgeClient.MessageTypes.Sensor
 {
     public class CompressedImage2 : Message
     {
