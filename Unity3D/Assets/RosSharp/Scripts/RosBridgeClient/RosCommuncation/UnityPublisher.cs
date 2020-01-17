@@ -23,7 +23,7 @@ namespace RosSharp.RosBridgeClient
         public string Topic;
         private string publicationId;
 
-        private RosConnector rosConnector;
+        protected RosConnector rosConnector;
 
         protected virtual void Start()
         {

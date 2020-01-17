@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 
 using RosSharp.RosBridgeClient.MessageTypes.Std;
 
-namespace RosSharp.RosBridgeClient.Messages.RosGraph
+namespace RosSharp.RosBridgeClient.MessageTypes.RosGraph
 {
     public class Clock : Message
     {
