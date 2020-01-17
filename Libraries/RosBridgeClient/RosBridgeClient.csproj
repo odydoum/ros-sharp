@@ -94,6 +94,7 @@
     <Compile Include="MessageTypes\Actionlib\msg\GoalID.cs" />
     <Compile Include="MessageTypes\Actionlib\msg\GoalStatus.cs" />
     <Compile Include="MessageTypes\Actionlib\msg\GoalStatusArray.cs" />
+    <Compile Include="MessageTypes\Adapt\msg\CmdPlatform.cs" />
     <Compile Include="MessageTypes\FileServer\srv\GetBinaryFileRequest.cs" />
     <Compile Include="MessageTypes\FileServer\srv\GetBinaryFileResponse.cs" />
     <Compile Include="MessageTypes\FileServer\srv\SaveBinaryFileRequest.cs" />
@@ -194,10 +195,12 @@
     <Compile Include="MessageTypes\Rosapi\srv\TopicsResponse.cs" />
     <Compile Include="MessageTypes\Rosapi\srv\TopicTypeRequest.cs" />
     <Compile Include="MessageTypes\Rosapi\srv\TopicTypeResponse.cs" />
+    <Compile Include="MessageTypes\RosGraph\msg\Clock.cs" />
     <Compile Include="MessageTypes\Sensor\msg\BatteryState.cs" />
     <Compile Include="MessageTypes\Sensor\msg\CameraInfo.cs" />
     <Compile Include="MessageTypes\Sensor\msg\ChannelFloat32.cs" />
     <Compile Include="MessageTypes\Sensor\msg\CompressedImage.cs" />
+    <Compile Include="MessageTypes\Sensor\msg\CompressedImage2.cs" />
     <Compile Include="MessageTypes\Sensor\msg\FluidPressure.cs" />
     <Compile Include="MessageTypes\Sensor\msg\Illuminance.cs" />
     <Compile Include="MessageTypes\Sensor\msg\Image.cs" />

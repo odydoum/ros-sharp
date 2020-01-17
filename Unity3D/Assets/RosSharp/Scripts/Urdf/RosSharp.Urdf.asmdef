@@ -1,0 +1,14 @@
+{
+    "name": "RosSharp.Urdf",
+    "references": [
+        "GUID:189f0269e54174942b41961aeb8d4cdd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

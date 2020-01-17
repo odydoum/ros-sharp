@@ -43,7 +43,7 @@ namespace Utf8Json.Resolvers
 
         static RosSharpResolverGenGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(197)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(200)
             {
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Actionlib.GoalStatus[]), 0 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Point32[]), 1 },
@@ -76,172 +76,175 @@ namespace Utf8Json.Resolvers
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciFeedback), 28 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciActionFeedback), 29 },
                 {typeof(global::RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciAction), 30 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileRequest), 31 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileResponse), 32 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileRequest), 33 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileResponse), 34 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3), 35 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Accel), 36 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelStamped), 37 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovariance), 38 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovarianceStamped), 39 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Inertia), 40 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.InertiaStamped), 41 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Point), 42 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Point32), 43 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PointStamped), 44 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Polygon), 45 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PolygonStamped), 46 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Quaternion), 47 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Pose), 48 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Pose2D), 49 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseArray), 50 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseStamped), 51 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovariance), 52 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovarianceStamped), 53 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.QuaternionStamped), 54 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Transform), 55 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TransformStamped), 56 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Twist), 57 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistStamped), 58 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovariance), 59 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovarianceStamped), 60 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3Stamped), 61 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Wrench), 62 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.WrenchStamped), 63 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionGoal), 64 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.MapMetaData), 65 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.OccupancyGrid), 66 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResult), 67 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionResult), 68 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionFeedback), 69 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapAction), 70 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GridCells), 71 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.Odometry), 72 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.Path), 73 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResponse), 74 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanRequest), 75 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanResponse), 76 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapRequest), 77 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapResponse), 78 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TypeDef), 79 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.DeleteParamRequest), 80 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetActionServersResponse), 81 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamNamesResponse), 82 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamRequest), 83 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamResponse), 84 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetTimeResponse), 85 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamRequest), 86 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamResponse), 87 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsRequest), 88 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsResponse), 89 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsRequest), 90 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsResponse), 91 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodesResponse), 92 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersRequest), 93 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersResponse), 94 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamRequest), 95 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamResponse), 96 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostRequest), 97 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostResponse), 98 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeRequest), 99 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeResponse), 100 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersRequest), 101 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersResponse), 102 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsRequest), 103 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsResponse), 104 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsRequest), 105 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsResponse), 106 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeRequest), 107 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeResponse), 108 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesResponse), 109 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeRequest), 110 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeResponse), 111 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SetParamRequest), 112 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersRequest), 113 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersResponse), 114 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeRequest), 115 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeResponse), 116 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsResponse), 117 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeRequest), 118 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeResponse), 119 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.BatteryState), 120 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.RegionOfInterest), 121 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CameraInfo), 122 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.ChannelFloat32), 123 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage), 124 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.FluidPressure), 125 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Illuminance), 126 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Image), 127 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Imu), 128 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.JointState), 129 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Joy), 130 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedback), 131 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedbackArray), 132 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserEcho), 133 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserScan), 134 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.MagneticField), 135 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiDOFJointState), 136 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiEchoLaserScan), 137 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatStatus), 138 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatFix), 139 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloud), 140 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.PointField), 141 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloud2), 142 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Range), 143 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.RelativeHumidity), 144 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Temperature), 145 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.TimeReference), 146 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoRequest), 147 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoResponse), 148 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.MeshTriangle), 149 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.Mesh), 150 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.Plane), 151 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.SolidPrimitive), 152 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Bool), 153 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Byte), 154 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayDimension), 155 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayLayout), 156 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.ByteMultiArray), 157 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Char), 158 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.ColorRGBA), 159 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float32), 160 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float32MultiArray), 161 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float64), 162 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float64MultiArray), 163 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int16), 164 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int16MultiArray), 165 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int32), 166 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int32MultiArray), 167 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int64), 168 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int64MultiArray), 169 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int8), 170 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int8MultiArray), 171 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.String), 172 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt16), 173 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt16MultiArray), 174 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt32), 175 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt32MultiArray), 176 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt64), 177 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt64MultiArray), 178 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt8), 179 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt8MultiArray), 180 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolRequest), 181 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolResponse), 182 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.TriggerResponse), 183 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformGoal), 184 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionGoal), 185 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.TF2Error), 186 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformResult), 187 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionResult), 188 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionFeedback), 189 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformAction), 190 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.TFMessage), 191 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.FrameGraphResponse), 192 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectoryPoint), 193 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectory), 194 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectoryPoint), 195 },
-                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectory), 196 },
+                {typeof(global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform), 31 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileRequest), 32 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileResponse), 33 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileRequest), 34 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileResponse), 35 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3), 36 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Accel), 37 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelStamped), 38 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovariance), 39 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovarianceStamped), 40 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Inertia), 41 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.InertiaStamped), 42 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Point), 43 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Point32), 44 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PointStamped), 45 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Polygon), 46 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PolygonStamped), 47 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Quaternion), 48 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Pose), 49 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Pose2D), 50 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseArray), 51 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseStamped), 52 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovariance), 53 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovarianceStamped), 54 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.QuaternionStamped), 55 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Transform), 56 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TransformStamped), 57 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Twist), 58 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistStamped), 59 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovariance), 60 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovarianceStamped), 61 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3Stamped), 62 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.Wrench), 63 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Geometry.WrenchStamped), 64 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionGoal), 65 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.MapMetaData), 66 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.OccupancyGrid), 67 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResult), 68 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionResult), 69 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionFeedback), 70 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapAction), 71 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GridCells), 72 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.Odometry), 73 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.Path), 74 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResponse), 75 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanRequest), 76 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanResponse), 77 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapRequest), 78 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapResponse), 79 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TypeDef), 80 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.DeleteParamRequest), 81 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetActionServersResponse), 82 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamNamesResponse), 83 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamRequest), 84 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamResponse), 85 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetTimeResponse), 86 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamRequest), 87 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamResponse), 88 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsRequest), 89 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsResponse), 90 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsRequest), 91 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsResponse), 92 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodesResponse), 93 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersRequest), 94 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersResponse), 95 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamRequest), 96 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamResponse), 97 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostRequest), 98 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostResponse), 99 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeRequest), 100 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeResponse), 101 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersRequest), 102 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersResponse), 103 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsRequest), 104 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsResponse), 105 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsRequest), 106 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsResponse), 107 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeRequest), 108 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeResponse), 109 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesResponse), 110 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeRequest), 111 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeResponse), 112 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SetParamRequest), 113 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersRequest), 114 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersResponse), 115 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeRequest), 116 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeResponse), 117 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsResponse), 118 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeRequest), 119 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeResponse), 120 },
+                {typeof(global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock), 121 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.BatteryState), 122 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.RegionOfInterest), 123 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CameraInfo), 124 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.ChannelFloat32), 125 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImage), 126 },
+                {typeof(global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2), 127 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.FluidPressure), 128 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Illuminance), 129 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Image), 130 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Imu), 131 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.JointState), 132 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Joy), 133 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedback), 134 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedbackArray), 135 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserEcho), 136 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserScan), 137 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.MagneticField), 138 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiDOFJointState), 139 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiEchoLaserScan), 140 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatStatus), 141 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatFix), 142 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloud), 143 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.PointField), 144 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloud2), 145 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Range), 146 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.RelativeHumidity), 147 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.Temperature), 148 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.TimeReference), 149 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoRequest), 150 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoResponse), 151 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.MeshTriangle), 152 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.Mesh), 153 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.Plane), 154 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Shape.SolidPrimitive), 155 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Bool), 156 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Byte), 157 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayDimension), 158 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayLayout), 159 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.ByteMultiArray), 160 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Char), 161 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.ColorRGBA), 162 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float32), 163 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float32MultiArray), 164 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float64), 165 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Float64MultiArray), 166 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int16), 167 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int16MultiArray), 168 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int32), 169 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int32MultiArray), 170 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int64), 171 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int64MultiArray), 172 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int8), 173 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.Int8MultiArray), 174 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.String), 175 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt16), 176 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt16MultiArray), 177 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt32), 178 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt32MultiArray), 179 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt64), 180 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt64MultiArray), 181 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt8), 182 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.UInt8MultiArray), 183 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolRequest), 184 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolResponse), 185 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Std.TriggerResponse), 186 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformGoal), 187 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionGoal), 188 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.TF2Error), 189 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformResult), 190 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionResult), 191 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionFeedback), 192 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformAction), 193 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.TFMessage), 194 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Tf2.FrameGraphResponse), 195 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectoryPoint), 196 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectory), 197 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectoryPoint), 198 },
+                {typeof(global::RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectory), 199 },
             };
         }
 
@@ -283,172 +286,175 @@ namespace Utf8Json.Resolvers
                 case 28: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciFeedbackFormatter();
                 case 29: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciActionFeedbackFormatter();
                 case 30: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTutorials.FibonacciActionFormatter();
-                case 31: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileRequestFormatter();
-                case 32: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileResponseFormatter();
-                case 33: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileRequestFormatter();
-                case 34: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileResponseFormatter();
-                case 35: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3Formatter();
-                case 36: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelFormatter();
-                case 37: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelStampedFormatter();
-                case 38: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovarianceFormatter();
-                case 39: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovarianceStampedFormatter();
-                case 40: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.InertiaFormatter();
-                case 41: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.InertiaStampedFormatter();
-                case 42: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PointFormatter();
-                case 43: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Point32Formatter();
-                case 44: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PointStampedFormatter();
-                case 45: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PolygonFormatter();
-                case 46: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PolygonStampedFormatter();
-                case 47: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.QuaternionFormatter();
-                case 48: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseFormatter();
-                case 49: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Pose2DFormatter();
-                case 50: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseArrayFormatter();
-                case 51: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseStampedFormatter();
-                case 52: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovarianceFormatter();
-                case 53: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovarianceStampedFormatter();
-                case 54: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.QuaternionStampedFormatter();
-                case 55: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TransformFormatter();
-                case 56: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TransformStampedFormatter();
-                case 57: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistFormatter();
-                case 58: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistStampedFormatter();
-                case 59: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovarianceFormatter();
-                case 60: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovarianceStampedFormatter();
-                case 61: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3StampedFormatter();
-                case 62: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.WrenchFormatter();
-                case 63: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.WrenchStampedFormatter();
-                case 64: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionGoalFormatter();
-                case 65: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.MapMetaDataFormatter();
-                case 66: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.OccupancyGridFormatter();
-                case 67: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResultFormatter();
-                case 68: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionResultFormatter();
-                case 69: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionFeedbackFormatter();
-                case 70: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionFormatter();
-                case 71: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GridCellsFormatter();
-                case 72: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.OdometryFormatter();
-                case 73: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.PathFormatter();
-                case 74: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResponseFormatter();
-                case 75: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanRequestFormatter();
-                case 76: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanResponseFormatter();
-                case 77: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapRequestFormatter();
-                case 78: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapResponseFormatter();
-                case 79: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TypeDefFormatter();
-                case 80: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.DeleteParamRequestFormatter();
-                case 81: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetActionServersResponseFormatter();
-                case 82: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamNamesResponseFormatter();
-                case 83: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamRequestFormatter();
-                case 84: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamResponseFormatter();
-                case 85: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetTimeResponseFormatter();
-                case 86: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamRequestFormatter();
-                case 87: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamResponseFormatter();
-                case 88: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsRequestFormatter();
-                case 89: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsResponseFormatter();
-                case 90: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsRequestFormatter();
-                case 91: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsResponseFormatter();
-                case 92: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodesResponseFormatter();
-                case 93: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersRequestFormatter();
-                case 94: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersResponseFormatter();
-                case 95: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamRequestFormatter();
-                case 96: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamResponseFormatter();
-                case 97: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostRequestFormatter();
-                case 98: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostResponseFormatter();
-                case 99: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeRequestFormatter();
-                case 100: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeResponseFormatter();
-                case 101: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersRequestFormatter();
-                case 102: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersResponseFormatter();
-                case 103: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsRequestFormatter();
-                case 104: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsResponseFormatter();
-                case 105: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsRequestFormatter();
-                case 106: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsResponseFormatter();
-                case 107: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeRequestFormatter();
-                case 108: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeResponseFormatter();
-                case 109: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesResponseFormatter();
-                case 110: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeRequestFormatter();
-                case 111: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeResponseFormatter();
-                case 112: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SetParamRequestFormatter();
-                case 113: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersRequestFormatter();
-                case 114: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersResponseFormatter();
-                case 115: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeRequestFormatter();
-                case 116: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeResponseFormatter();
-                case 117: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsResponseFormatter();
-                case 118: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeRequestFormatter();
-                case 119: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeResponseFormatter();
-                case 120: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.BatteryStateFormatter();
-                case 121: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.RegionOfInterestFormatter();
-                case 122: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.CameraInfoFormatter();
-                case 123: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ChannelFloat32Formatter();
-                case 124: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImageFormatter();
-                case 125: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.FluidPressureFormatter();
-                case 126: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.IlluminanceFormatter();
-                case 127: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ImageFormatter();
-                case 128: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ImuFormatter();
-                case 129: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JointStateFormatter();
-                case 130: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFormatter();
-                case 131: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedbackFormatter();
-                case 132: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedbackArrayFormatter();
-                case 133: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserEchoFormatter();
-                case 134: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserScanFormatter();
-                case 135: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.MagneticFieldFormatter();
-                case 136: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiDOFJointStateFormatter();
-                case 137: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiEchoLaserScanFormatter();
-                case 138: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatStatusFormatter();
-                case 139: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatFixFormatter();
-                case 140: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloudFormatter();
-                case 141: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.PointFieldFormatter();
-                case 142: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloud2Formatter();
-                case 143: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.RangeFormatter();
-                case 144: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.RelativeHumidityFormatter();
-                case 145: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.TemperatureFormatter();
-                case 146: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.TimeReferenceFormatter();
-                case 147: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoRequestFormatter();
-                case 148: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoResponseFormatter();
-                case 149: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.MeshTriangleFormatter();
-                case 150: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.MeshFormatter();
-                case 151: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.PlaneFormatter();
-                case 152: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.SolidPrimitiveFormatter();
-                case 153: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.BoolFormatter();
-                case 154: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.ByteFormatter();
-                case 155: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayDimensionFormatter();
-                case 156: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayLayoutFormatter();
-                case 157: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.ByteMultiArrayFormatter();
-                case 158: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.CharFormatter();
-                case 159: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.ColorRGBAFormatter();
-                case 160: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float32Formatter();
-                case 161: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float32MultiArrayFormatter();
-                case 162: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float64Formatter();
-                case 163: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float64MultiArrayFormatter();
-                case 164: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int16Formatter();
-                case 165: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int16MultiArrayFormatter();
-                case 166: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int32Formatter();
-                case 167: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int32MultiArrayFormatter();
-                case 168: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int64Formatter();
-                case 169: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int64MultiArrayFormatter();
-                case 170: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int8Formatter();
-                case 171: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int8MultiArrayFormatter();
-                case 172: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.StringFormatter();
-                case 173: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt16Formatter();
-                case 174: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt16MultiArrayFormatter();
-                case 175: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt32Formatter();
-                case 176: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt32MultiArrayFormatter();
-                case 177: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt64Formatter();
-                case 178: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt64MultiArrayFormatter();
-                case 179: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt8Formatter();
-                case 180: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt8MultiArrayFormatter();
-                case 181: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolRequestFormatter();
-                case 182: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolResponseFormatter();
-                case 183: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.TriggerResponseFormatter();
-                case 184: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformGoalFormatter();
-                case 185: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionGoalFormatter();
-                case 186: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.TF2ErrorFormatter();
-                case 187: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformResultFormatter();
-                case 188: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionResultFormatter();
-                case 189: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionFeedbackFormatter();
-                case 190: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionFormatter();
-                case 191: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.TFMessageFormatter();
-                case 192: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.FrameGraphResponseFormatter();
-                case 193: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectoryPointFormatter();
-                case 194: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectoryFormatter();
-                case 195: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectoryPointFormatter();
-                case 196: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectoryFormatter();
+                case 31: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatformFormatter();
+                case 32: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileRequestFormatter();
+                case 33: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.GetBinaryFileResponseFormatter();
+                case 34: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileRequestFormatter();
+                case 35: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.FileServer.SaveBinaryFileResponseFormatter();
+                case 36: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3Formatter();
+                case 37: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelFormatter();
+                case 38: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelStampedFormatter();
+                case 39: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovarianceFormatter();
+                case 40: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.AccelWithCovarianceStampedFormatter();
+                case 41: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.InertiaFormatter();
+                case 42: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.InertiaStampedFormatter();
+                case 43: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PointFormatter();
+                case 44: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Point32Formatter();
+                case 45: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PointStampedFormatter();
+                case 46: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PolygonFormatter();
+                case 47: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PolygonStampedFormatter();
+                case 48: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.QuaternionFormatter();
+                case 49: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseFormatter();
+                case 50: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Pose2DFormatter();
+                case 51: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseArrayFormatter();
+                case 52: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseStampedFormatter();
+                case 53: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovarianceFormatter();
+                case 54: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.PoseWithCovarianceStampedFormatter();
+                case 55: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.QuaternionStampedFormatter();
+                case 56: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TransformFormatter();
+                case 57: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TransformStampedFormatter();
+                case 58: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistFormatter();
+                case 59: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistStampedFormatter();
+                case 60: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovarianceFormatter();
+                case 61: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.TwistWithCovarianceStampedFormatter();
+                case 62: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.Vector3StampedFormatter();
+                case 63: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.WrenchFormatter();
+                case 64: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Geometry.WrenchStampedFormatter();
+                case 65: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionGoalFormatter();
+                case 66: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.MapMetaDataFormatter();
+                case 67: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.OccupancyGridFormatter();
+                case 68: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResultFormatter();
+                case 69: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionResultFormatter();
+                case 70: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionFeedbackFormatter();
+                case 71: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapActionFormatter();
+                case 72: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GridCellsFormatter();
+                case 73: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.OdometryFormatter();
+                case 74: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.PathFormatter();
+                case 75: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetMapResponseFormatter();
+                case 76: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanRequestFormatter();
+                case 77: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.GetPlanResponseFormatter();
+                case 78: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapRequestFormatter();
+                case 79: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Nav.SetMapResponseFormatter();
+                case 80: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TypeDefFormatter();
+                case 81: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.DeleteParamRequestFormatter();
+                case 82: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetActionServersResponseFormatter();
+                case 83: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamNamesResponseFormatter();
+                case 84: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamRequestFormatter();
+                case 85: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetParamResponseFormatter();
+                case 86: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.GetTimeResponseFormatter();
+                case 87: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamRequestFormatter();
+                case 88: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.HasParamResponseFormatter();
+                case 89: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsRequestFormatter();
+                case 90: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.MessageDetailsResponseFormatter();
+                case 91: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsRequestFormatter();
+                case 92: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodeDetailsResponseFormatter();
+                case 93: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.NodesResponseFormatter();
+                case 94: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersRequestFormatter();
+                case 95: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.PublishersResponseFormatter();
+                case 96: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamRequestFormatter();
+                case 97: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SearchParamResponseFormatter();
+                case 98: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostRequestFormatter();
+                case 99: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceHostResponseFormatter();
+                case 100: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeRequestFormatter();
+                case 101: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceNodeResponseFormatter();
+                case 102: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersRequestFormatter();
+                case 103: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceProvidersResponseFormatter();
+                case 104: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsRequestFormatter();
+                case 105: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceRequestDetailsResponseFormatter();
+                case 106: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsRequestFormatter();
+                case 107: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceResponseDetailsResponseFormatter();
+                case 108: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeRequestFormatter();
+                case 109: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesForTypeResponseFormatter();
+                case 110: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServicesResponseFormatter();
+                case 111: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeRequestFormatter();
+                case 112: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.ServiceTypeResponseFormatter();
+                case 113: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SetParamRequestFormatter();
+                case 114: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersRequestFormatter();
+                case 115: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.SubscribersResponseFormatter();
+                case 116: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeRequestFormatter();
+                case 117: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsForTypeResponseFormatter();
+                case 118: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicsResponseFormatter();
+                case 119: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeRequestFormatter();
+                case 120: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi.TopicTypeResponseFormatter();
+                case 121: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.RosGraph.ClockFormatter();
+                case 122: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.BatteryStateFormatter();
+                case 123: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.RegionOfInterestFormatter();
+                case 124: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.CameraInfoFormatter();
+                case 125: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ChannelFloat32Formatter();
+                case 126: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.CompressedImageFormatter();
+                case 127: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2Formatter();
+                case 128: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.FluidPressureFormatter();
+                case 129: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.IlluminanceFormatter();
+                case 130: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ImageFormatter();
+                case 131: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.ImuFormatter();
+                case 132: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JointStateFormatter();
+                case 133: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFormatter();
+                case 134: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedbackFormatter();
+                case 135: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.JoyFeedbackArrayFormatter();
+                case 136: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserEchoFormatter();
+                case 137: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.LaserScanFormatter();
+                case 138: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.MagneticFieldFormatter();
+                case 139: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiDOFJointStateFormatter();
+                case 140: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.MultiEchoLaserScanFormatter();
+                case 141: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatStatusFormatter();
+                case 142: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.NavSatFixFormatter();
+                case 143: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloudFormatter();
+                case 144: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.PointFieldFormatter();
+                case 145: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.PointCloud2Formatter();
+                case 146: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.RangeFormatter();
+                case 147: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.RelativeHumidityFormatter();
+                case 148: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.TemperatureFormatter();
+                case 149: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.TimeReferenceFormatter();
+                case 150: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoRequestFormatter();
+                case 151: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoResponseFormatter();
+                case 152: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.MeshTriangleFormatter();
+                case 153: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.MeshFormatter();
+                case 154: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.PlaneFormatter();
+                case 155: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Shape.SolidPrimitiveFormatter();
+                case 156: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.BoolFormatter();
+                case 157: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.ByteFormatter();
+                case 158: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayDimensionFormatter();
+                case 159: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.MultiArrayLayoutFormatter();
+                case 160: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.ByteMultiArrayFormatter();
+                case 161: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.CharFormatter();
+                case 162: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.ColorRGBAFormatter();
+                case 163: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float32Formatter();
+                case 164: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float32MultiArrayFormatter();
+                case 165: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float64Formatter();
+                case 166: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Float64MultiArrayFormatter();
+                case 167: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int16Formatter();
+                case 168: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int16MultiArrayFormatter();
+                case 169: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int32Formatter();
+                case 170: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int32MultiArrayFormatter();
+                case 171: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int64Formatter();
+                case 172: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int64MultiArrayFormatter();
+                case 173: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int8Formatter();
+                case 174: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.Int8MultiArrayFormatter();
+                case 175: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.StringFormatter();
+                case 176: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt16Formatter();
+                case 177: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt16MultiArrayFormatter();
+                case 178: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt32Formatter();
+                case 179: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt32MultiArrayFormatter();
+                case 180: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt64Formatter();
+                case 181: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt64MultiArrayFormatter();
+                case 182: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt8Formatter();
+                case 183: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.UInt8MultiArrayFormatter();
+                case 184: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolRequestFormatter();
+                case 185: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.SetBoolResponseFormatter();
+                case 186: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Std.TriggerResponseFormatter();
+                case 187: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformGoalFormatter();
+                case 188: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionGoalFormatter();
+                case 189: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.TF2ErrorFormatter();
+                case 190: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformResultFormatter();
+                case 191: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionResultFormatter();
+                case 192: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionFeedbackFormatter();
+                case 193: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.LookupTransformActionFormatter();
+                case 194: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.TFMessageFormatter();
+                case 195: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Tf2.FrameGraphResponseFormatter();
+                case 196: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectoryPointFormatter();
+                case 197: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.JointTrajectoryFormatter();
+                case 198: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectoryPointFormatter();
+                case 199: return new Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Trajectory.MultiDOFJointTrajectoryFormatter();
                 default: return null;
             }
         }
@@ -4407,6 +4413,170 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.ActionlibTut
             if(__action_goal__b__) ____result.action_goal = __action_goal__;
             if(__action_result__b__) ____result.action_result = __action_result__;
             if(__action_feedback__b__) ____result.action_feedback = __action_feedback__;
+
+            return ____result;
+        }
+    }
+
+}
+
+#pragma warning disable 168
+#pragma warning restore 219
+#pragma warning restore 414
+#pragma warning restore 618
+#pragma warning restore 612
+#pragma warning disable 618
+#pragma warning disable 612
+#pragma warning disable 414
+#pragma warning disable 219
+#pragma warning disable 168
+
+namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Adapt
+{
+    using System;
+    using Utf8Json;
+
+
+    public sealed class CmdPlatformFormatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform>
+    {
+        readonly global::Utf8Json.Internal.AutomataDictionary ____keyMapping;
+        readonly byte[][] ____stringByteKeys;
+
+        public CmdPlatformFormatter()
+        {
+            this.____keyMapping = new global::Utf8Json.Internal.AutomataDictionary()
+            {
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("header"), 0},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("pitch"), 1},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("roll"), 2},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("yaw"), 3},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("heave"), 4},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("rpm"), 5},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("torque"), 6},
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                JsonWriter.GetEncodedPropertyNameWithBeginObject("header"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("pitch"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("roll"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("yaw"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("heave"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("rpm"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("torque"),
+                
+            };
+        }
+
+        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (value == null)
+            {
+                writer.WriteNull();
+                return;
+            }
+            
+
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Serialize(ref writer, value.header, formatterResolver);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.WriteSingle(value.pitch);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            writer.WriteSingle(value.roll);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            writer.WriteSingle(value.yaw);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            writer.WriteSingle(value.heave);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.WriteSingle(value.rpm);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            writer.WriteSingle(value.torque);
+            
+            writer.WriteEndObject();
+        }
+
+        public global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (reader.ReadIsNull())
+            {
+                return null;
+            }
+            
+
+            var __header__ = default(global::RosSharp.RosBridgeClient.MessageTypes.Std.Header);
+            var __header__b__ = false;
+            var __pitch__ = default(float);
+            var __pitch__b__ = false;
+            var __roll__ = default(float);
+            var __roll__b__ = false;
+            var __yaw__ = default(float);
+            var __yaw__b__ = false;
+            var __heave__ = default(float);
+            var __heave__b__ = false;
+            var __rpm__ = default(float);
+            var __rpm__b__ = false;
+            var __torque__ = default(float);
+            var __torque__b__ = false;
+
+            var ____count = 0;
+            reader.ReadIsBeginObjectWithVerify();
+            while (!reader.ReadIsEndObjectWithSkipValueSeparator(ref ____count))
+            {
+                var stringKey = reader.ReadPropertyNameSegmentRaw();
+                int key;
+                if (!____keyMapping.TryGetValueSafe(stringKey, out key))
+                {
+                    reader.ReadNextBlock();
+                    goto NEXT_LOOP;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __header__ = formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Deserialize(ref reader, formatterResolver);
+                        __header__b__ = true;
+                        break;
+                    case 1:
+                        __pitch__ = reader.ReadSingle();
+                        __pitch__b__ = true;
+                        break;
+                    case 2:
+                        __roll__ = reader.ReadSingle();
+                        __roll__b__ = true;
+                        break;
+                    case 3:
+                        __yaw__ = reader.ReadSingle();
+                        __yaw__b__ = true;
+                        break;
+                    case 4:
+                        __heave__ = reader.ReadSingle();
+                        __heave__b__ = true;
+                        break;
+                    case 5:
+                        __rpm__ = reader.ReadSingle();
+                        __rpm__b__ = true;
+                        break;
+                    case 6:
+                        __torque__ = reader.ReadSingle();
+                        __torque__b__ = true;
+                        break;
+                    default:
+                        reader.ReadNextBlock();
+                        break;
+                }
+
+                NEXT_LOOP:
+                continue;
+            }
+
+            var ____result = new global::RosSharp.RosBridgeClient.Messages.Adapt.CmdPlatform();
+            if(__header__b__) ____result.header = __header__;
+            if(__pitch__b__) ____result.pitch = __pitch__;
+            if(__roll__b__) ____result.roll = __roll__;
+            if(__yaw__b__) ____result.yaw = __yaw__;
+            if(__heave__b__) ____result.heave = __heave__;
+            if(__rpm__b__) ____result.rpm = __rpm__;
+            if(__torque__b__) ____result.torque = __torque__;
 
             return ____result;
         }
@@ -12464,6 +12634,104 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Rosapi
 #pragma warning disable 219
 #pragma warning disable 168
 
+namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.RosGraph
+{
+    using System;
+    using Utf8Json;
+
+
+    public sealed class ClockFormatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock>
+    {
+        readonly global::Utf8Json.Internal.AutomataDictionary ____keyMapping;
+        readonly byte[][] ____stringByteKeys;
+
+        public ClockFormatter()
+        {
+            this.____keyMapping = new global::Utf8Json.Internal.AutomataDictionary()
+            {
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("clock"), 0},
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                JsonWriter.GetEncodedPropertyNameWithBeginObject("clock"),
+                
+            };
+        }
+
+        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (value == null)
+            {
+                writer.WriteNull();
+                return;
+            }
+            
+
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Time>().Serialize(ref writer, value.clock, formatterResolver);
+            
+            writer.WriteEndObject();
+        }
+
+        public global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (reader.ReadIsNull())
+            {
+                return null;
+            }
+            
+
+            var __clock__ = default(global::RosSharp.RosBridgeClient.MessageTypes.Std.Time);
+            var __clock__b__ = false;
+
+            var ____count = 0;
+            reader.ReadIsBeginObjectWithVerify();
+            while (!reader.ReadIsEndObjectWithSkipValueSeparator(ref ____count))
+            {
+                var stringKey = reader.ReadPropertyNameSegmentRaw();
+                int key;
+                if (!____keyMapping.TryGetValueSafe(stringKey, out key))
+                {
+                    reader.ReadNextBlock();
+                    goto NEXT_LOOP;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __clock__ = formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Time>().Deserialize(ref reader, formatterResolver);
+                        __clock__b__ = true;
+                        break;
+                    default:
+                        reader.ReadNextBlock();
+                        break;
+                }
+
+                NEXT_LOOP:
+                continue;
+            }
+
+            var ____result = new global::RosSharp.RosBridgeClient.Messages.RosGraph.Clock();
+            if(__clock__b__) ____result.clock = __clock__;
+
+            return ____result;
+        }
+    }
+
+}
+
+#pragma warning disable 168
+#pragma warning restore 219
+#pragma warning restore 414
+#pragma warning restore 618
+#pragma warning restore 612
+#pragma warning disable 618
+#pragma warning disable 612
+#pragma warning disable 414
+#pragma warning disable 219
+#pragma warning disable 168
+
 namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor
 {
     using System;
@@ -15994,6 +16262,126 @@ namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.MessageTypes.Sensor
             var ____result = new global::RosSharp.RosBridgeClient.MessageTypes.Sensor.SetCameraInfoResponse();
             if(__success__b__) ____result.success = __success__;
             if(__status_message__b__) ____result.status_message = __status_message__;
+
+            return ____result;
+        }
+    }
+
+}
+
+#pragma warning disable 168
+#pragma warning restore 219
+#pragma warning restore 414
+#pragma warning restore 618
+#pragma warning restore 612
+#pragma warning disable 618
+#pragma warning disable 612
+#pragma warning disable 414
+#pragma warning disable 219
+#pragma warning disable 168
+
+namespace Utf8Json.Formatters.RosSharp.RosBridgeClient.Messages.Sensor
+{
+    using System;
+    using Utf8Json;
+
+
+    public sealed class CompressedImage2Formatter : global::Utf8Json.IJsonFormatter<global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2>
+    {
+        readonly global::Utf8Json.Internal.AutomataDictionary ____keyMapping;
+        readonly byte[][] ____stringByteKeys;
+
+        public CompressedImage2Formatter()
+        {
+            this.____keyMapping = new global::Utf8Json.Internal.AutomataDictionary()
+            {
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("header"), 0},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("format"), 1},
+                { JsonWriter.GetEncodedPropertyNameWithoutQuotation("data"), 2},
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                JsonWriter.GetEncodedPropertyNameWithBeginObject("header"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("format"),
+                JsonWriter.GetEncodedPropertyNameWithPrefixValueSeparator("data"),
+                
+            };
+        }
+
+        public void Serialize(ref JsonWriter writer, global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2 value, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (value == null)
+            {
+                writer.WriteNull();
+                return;
+            }
+            
+
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Serialize(ref writer, value.header, formatterResolver);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.WriteString(value.format);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::System.ArraySegment<byte>>().Serialize(ref writer, value._data, formatterResolver);
+            
+            writer.WriteEndObject();
+        }
+
+        public global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2 Deserialize(ref JsonReader reader, global::Utf8Json.IJsonFormatterResolver formatterResolver)
+        {
+            if (reader.ReadIsNull())
+            {
+                return null;
+            }
+            
+
+            var __header__ = default(global::RosSharp.RosBridgeClient.MessageTypes.Std.Header);
+            var __header__b__ = false;
+            var __format__ = default(string);
+            var __format__b__ = false;
+            var ___data__ = default(global::System.ArraySegment<byte>);
+            var ___data__b__ = false;
+
+            var ____count = 0;
+            reader.ReadIsBeginObjectWithVerify();
+            while (!reader.ReadIsEndObjectWithSkipValueSeparator(ref ____count))
+            {
+                var stringKey = reader.ReadPropertyNameSegmentRaw();
+                int key;
+                if (!____keyMapping.TryGetValueSafe(stringKey, out key))
+                {
+                    reader.ReadNextBlock();
+                    goto NEXT_LOOP;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __header__ = formatterResolver.GetFormatterWithVerify<global::RosSharp.RosBridgeClient.MessageTypes.Std.Header>().Deserialize(ref reader, formatterResolver);
+                        __header__b__ = true;
+                        break;
+                    case 1:
+                        __format__ = reader.ReadString();
+                        __format__b__ = true;
+                        break;
+                    case 2:
+                        ___data__ = formatterResolver.GetFormatterWithVerify<global::System.ArraySegment<byte>>().Deserialize(ref reader, formatterResolver);
+                        ___data__b__ = true;
+                        break;
+                    default:
+                        reader.ReadNextBlock();
+                        break;
+                }
+
+                NEXT_LOOP:
+                continue;
+            }
+
+            var ____result = new global::RosSharp.RosBridgeClient.Messages.Sensor.CompressedImage2();
+            if(__header__b__) ____result.header = __header__;
+            if(__format__b__) ____result.format = __format__;
+            if(___data__b__) ____result._data = ___data__;
 
             return ____result;
         }
