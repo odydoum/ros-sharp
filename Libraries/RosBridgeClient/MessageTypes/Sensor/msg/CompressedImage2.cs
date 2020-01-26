@@ -20,20 +20,31 @@ using RosSharp.RosBridgeClient.MessageTypes.Std;
 
 namespace RosSharp.RosBridgeClient.MessageTypes.Sensor
 {
+    [DataContract]
     public class CompressedImage2 : Message
     {
         [IgnoreDataMember]        
         public const string RosMessageName = "sensor_msgs/CompressedImage";
+        [DataMember]
         public Header header;
+        [DataMember]
         public string format;
 
         [DataMember(Name = "data")]
         public ArraySegment<byte> _data;
+
         public CompressedImage2()
         {
             header = new Header();
             format = "";
             _data = default(ArraySegment<byte>);
+        }
+
+        public CompressedImage2(Header header, string format, ArraySegment<byte> data)
+        {
+            this.header = header;
+            this.format = format;
+            this._data = data;
         }
     }
 }
